@@ -8,7 +8,7 @@ function trocarfrase() {
     elemento.style.fontsize = "25px";
     elemento.style.backgroundColor = "blue";
     document.body.style.backgroundColor = "yellow";
-    elemento.innerHTML = "<img scr='img/     ' />";
+    elemento.innerHTML = "<img scr='img/Pinguim.webp' />";
     function trocarClasse() { var trocarClasse; }
 }
 var nome = "Bernardo";
