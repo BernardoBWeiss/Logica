@@ -1,18 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="js/script.js"></script>
-    <title>Java</title>
+    <title>Javascript 01</title>
+    <script src="js/script.js" type="text/javascript"></script>
+    <link href="css/style.css">
+    <script>
+        alert("olá galera!")
+
+        function trocarTexto() {
+            var elemento = document.getElementById("frase")
+            var elementoNovo = document.getElementById("novaFrase").value
+            elemento.innerHTML = elementoNovo
+        }
+    </script>
 </head>
 
 <body>
-    <h1 onmouseover="TrocarClasse()" class="h1_2" andbclick="mudarFrase()" id="frase"> Olá Mundo </h1>
-    <input id="novaFrase" type="text" /><br />
-    <input id="botao" type="button" value="Trocar Frase" onclick="alert('olá');" /><br />
+    <h1 ondblclick="mudarFrase()" id="frase">Olá Mundo!</h1>
+    <input id="novaFrase" type="text"><br>
+            <input id="botao" type="button"             value="Trocar Frase"             onclick="trocarTexto();"><br>
+    <a href="calculadora.html">Vai para Calculadora</a><br>
+    <a href="validar.html">Vai para Validar</a>
 </body>
 
 </html>

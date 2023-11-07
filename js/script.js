@@ -1,15 +1,14 @@
-alert("Olá Mundo");
-function trocarfrase() {
-    var fraseatual = document.getElementById("frase");
-    var elemento = getElementById;
-    fraseAtual.className = h1_2;
-    elemento.innerHTML = "funcionou, a frase mudou";
+function mudarFrase() {
+    var elemento = document.getElementById("frase")
+    elemento.innerHTML = "Qualquer frase"
     elemento.style.color = "red";
-    elemento.style.fontsize = "25px";
-    elemento.style.backgroundColor = "blue";
-    document.body.style.backgroundColor = "yellow";
-    elemento.innerHTML = "<img scr='img/Pinguim.webp' />";
-    function trocarClasse() { var trocarClasse; }
+    elemento.style.fontSize = "25px";
+    elemento.style.backgroundColor = "yellow";
+    //altera o fundo da página
+    document.body.style.backgroundColor = "blue";
+    elemento.innerHTML = "<img src=\'img/a.jpeg\' />"
 }
-var nome = "Bernardo";
-console.log("o nome é" + nome);
+
+function gebi(id) {
+    return document.getElementById(id)
+}
